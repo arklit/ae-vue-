@@ -1,0 +1,132 @@
+.ui {
+    .span-1 {
+        color: #000;
+        cursor: pointer;
+        font-size: 15px;
+        user-select: none;
+        white-space: nowrap;
+        touch-action: manipulation;
+    }
+    .span-1.checked {
+        .span-2:before {
+            background: rgb(84,84,84);
+        }
+        .tick {
+            color: #FFF;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            visibility: visible;
+        }
+    }
+    .span-2 {
+        width: 17px;
+        height: 17px;
+        text-align: left;
+        position: relative;
+        z-index: 0;
+        display: inline-block;
+        line-height: normal;
+        cursor: pointer;
+        &:before {
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            content: '';
+            transition: background-color .1s linear;
+            border-radius: 4px;
+            background-color: rgb(230, 230, 230,);
+        }
+        &:after {
+            visibility: hidden;
+            content: '\00A0';
+            text-align: left;
+            cursor: pointer;
+        }
+    }
+    .input {
+        position: absolute;
+        z-index: 4;
+        top: -2px;
+        left: -2px;
+        width: -webkit-calc(100% + 4px);
+        width: calc(100% + 4px);
+        height: -webkit-calc(100% + 4px);
+        height: calc(100% + 4px);
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+        border: none;
+        outline: none;
+        background: none;
+        cursor: pointer;
+    }
+    .tick {
+        position: absolute;
+        z-index: 3;
+        visibility: hidden;
+        pointer-events: none;
+        transition: color .1s, transform .2s, -webkit-transform .2s;
+        transform: translateY(-5px);
+        color: transparent;
+        width: 100%;
+        height: 100%;
+    }
+    .icon {
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+            position: static;
+            top: initial;
+            left: initial;
+            -webkit-transform: none;
+            transform: none;
+            width: 14px;
+            height: 14px;
+            fill: currentColor;
+        }
+    }
+    .label {
+        padding-left: 5px;
+        white-space: normal;
+        cursor: pointer;
+    }
+
+}
+
+.check {
+    display: flex;
+    width: 200px;
+    margin: 200px auto
+}
+.form {
+    width: 600px;
+    margin: 300px auto;
+    @include column;
+    gap: 20px;
+}
+.item {
+    @include column;
+    width: 300px;
+    input {
+        margin: 10px 0 5px;
+    }
+}
+.input {
+    border: 1px solid black;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+.error-input {
+    border: 1px solid red;
+}
