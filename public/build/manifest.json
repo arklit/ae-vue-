@@ -1,0 +1,50 @@
+{
+  "__commonjsHelpers-725317a4.js": {
+    "file": "assets/_commonjsHelpers-725317a4.js"
+  },
+  "public/assets/img/admin/bg-image.jpg": {
+    "file": "assets/bg-image-685a2ce3.jpg",
+    "src": "public/assets/img/admin/bg-image.jpg"
+  },
+  "public/assets/img/admin/tree/minus.svg": {
+    "file": "assets/minus-1cb3432c.svg",
+    "src": "public/assets/img/admin/tree/minus.svg"
+  },
+  "public/assets/img/admin/tree/plus.svg": {
+    "file": "assets/plus-14d2a303.svg",
+    "src": "public/assets/img/admin/tree/plus.svg"
+  },
+  "resources/js/admin/app.js": {
+    "file": "assets/app-0984cf7c.js",
+    "imports": [
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/admin/app.js"
+  },
+  "resources/js/client/app.css": {
+    "file": "assets/app-626ac7d4.css",
+    "src": "resources/js/client/app.css"
+  },
+  "resources/js/client/app.js": {
+    "css": [
+      "assets/app-626ac7d4.css"
+    ],
+    "file": "assets/app-71bb984a.js",
+    "imports": [
+      "__commonjsHelpers-725317a4.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/client/app.js"
+  },
+  "resources/scss/admin/app.scss": {
+    "file": "assets/app-03162235.css",
+    "isEntry": true,
+    "src": "resources/scss/admin/app.scss"
+  },
+  "resources/scss/client/app.scss": {
+    "file": "assets/app-f8b42d1f.css",
+    "isEntry": true,
+    "src": "resources/scss/client/app.scss"
+  }
+}

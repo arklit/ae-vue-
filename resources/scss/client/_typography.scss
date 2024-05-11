@@ -1,0 +1,72 @@
+h1, .h1 {
+    font-size: 75px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    @media screen and (max-width: $desktop) {
+        font-size: 65px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 55px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        font-size: 45px;
+    }
+}
+
+h2, .h2 {
+    font-size: 65px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    @media screen and (max-width: $desktop) {
+        font-size: 55px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 45px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        font-size: 35px;
+    }
+}
+
+h3, .h3 {
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    @media screen and (max-width: $desktop) {
+        font-size: 45px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 35px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        font-size: 30px;
+    }
+}
+
+h4, .h4 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    @media screen and (max-width: $desktop) {
+        font-size: 35px;
+    }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: $mobile) {
+        font-size: 25px;
+    }
+}
+
+p {
+    font-weight: 300;
+    font-size: 15px;
+}

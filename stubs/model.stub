@@ -1,0 +1,11 @@
+<?php
+
+namespace {{ namespace }};
+
+class {{ class }} extends ProtoModel
+{
+    public const TABLE_NAME = 'table_name';
+    protected $table = self::TABLE_NAME;
+    protected $allowedSorts = ['id', 'is_active', 'sort', 'title', 'code', 'slug', 'created_at'];
+
+}

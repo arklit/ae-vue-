@@ -1,0 +1,5 @@
+{
+    "The :attribute must contain at least one uppercase and one lowercase letter.": ":attribute должен содержать хотя бы одну букву в верхнем и нижнем регистре",
+    "The :attribute must contain at least one letter.": ":attribute должен содержать хотя бы одну букву",
+    "The :attribute must contain at least one number.": ":attribute должен содержать хотя бы одну цифру"
+}
